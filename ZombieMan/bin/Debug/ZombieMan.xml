@@ -1,0 +1,316 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ZombieMan
+</name>
+</assembly>
+<members>
+<member name="T:ZombieMan.dstLeaderBoardEntry.LeaderboardDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ZombieMan.dstLeaderBoardEntry.LeaderboardRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ZombieMan.dstLeaderBoardEntry.LeaderboardRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ZombieMan.dstLeaderBoardEntry">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ZombieMan.dstLeaderBoardEntryTableAdapters.LeaderboardTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ZombieMan.dstLeaderBoardEntryTableAdapters.TableAdapterManager.UpdateUpdatedRows(ZombieMan.dstLeaderBoardEntry,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ZombieMan.dstLeaderBoardEntryTableAdapters.TableAdapterManager.UpdateInsertedRows(ZombieMan.dstLeaderBoardEntry,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ZombieMan.dstLeaderBoardEntryTableAdapters.TableAdapterManager.UpdateDeletedRows(ZombieMan.dstLeaderBoardEntry,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ZombieMan.dstLeaderBoardEntryTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ZombieMan.dstLeaderBoardEntryTableAdapters.TableAdapterManager.UpdateAll(ZombieMan.dstLeaderBoardEntry)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ZombieMan.dstLeaderBoardEntryTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ZombieMan.dstLeaderBoardEntryTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ZombieMan.dstLeaderBoardEntryTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ZombieMan.dstEasy.EasyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ZombieMan.dstEasy.EasyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ZombieMan.dstEasy.EasyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ZombieMan.dstEasy">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ZombieMan.dstEasyTableAdapters.EasyTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ZombieMan.dstEasyTableAdapters.TableAdapterManager.UpdateUpdatedRows(ZombieMan.dstEasy,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ZombieMan.dstEasyTableAdapters.TableAdapterManager.UpdateInsertedRows(ZombieMan.dstEasy,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ZombieMan.dstEasyTableAdapters.TableAdapterManager.UpdateDeletedRows(ZombieMan.dstEasy,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ZombieMan.dstEasyTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ZombieMan.dstEasyTableAdapters.TableAdapterManager.UpdateAll(ZombieMan.dstEasy)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ZombieMan.dstEasyTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ZombieMan.dstEasyTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ZombieMan.dstEasyTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ZombieMan.dstMedium.MediumDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ZombieMan.dstMedium.MediumRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ZombieMan.dstMedium.MediumRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ZombieMan.dstMedium">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ZombieMan.dstMediumTableAdapters.MediumTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ZombieMan.dstMediumTableAdapters.TableAdapterManager.UpdateUpdatedRows(ZombieMan.dstMedium,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ZombieMan.dstMediumTableAdapters.TableAdapterManager.UpdateInsertedRows(ZombieMan.dstMedium,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ZombieMan.dstMediumTableAdapters.TableAdapterManager.UpdateDeletedRows(ZombieMan.dstMedium,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ZombieMan.dstMediumTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ZombieMan.dstMediumTableAdapters.TableAdapterManager.UpdateAll(ZombieMan.dstMedium)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ZombieMan.dstMediumTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ZombieMan.dstMediumTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ZombieMan.dstMediumTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ZombieMan.dstHard.HardDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ZombieMan.dstHard.HardRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ZombieMan.dstHard.HardRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ZombieMan.dstHard">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ZombieMan.dstHardTableAdapters.HardTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ZombieMan.dstHardTableAdapters.TableAdapterManager.UpdateUpdatedRows(ZombieMan.dstHard,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ZombieMan.dstHardTableAdapters.TableAdapterManager.UpdateInsertedRows(ZombieMan.dstHard,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ZombieMan.dstHardTableAdapters.TableAdapterManager.UpdateDeletedRows(ZombieMan.dstHard,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ZombieMan.dstHardTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ZombieMan.dstHardTableAdapters.TableAdapterManager.UpdateAll(ZombieMan.dstHard)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ZombieMan.dstHardTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ZombieMan.dstHardTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ZombieMan.dstHardTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ZombieMan.LeaderboardDataSet.LeaderboardDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ZombieMan.LeaderboardDataSet.LeaderboardRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ZombieMan.LeaderboardDataSet.LeaderboardRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ZombieMan.LeaderboardDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ZombieMan.LeaderboardDataSetTableAdapters.LeaderboardTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ZombieMan.LeaderboardDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ZombieMan.LeaderboardDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ZombieMan.LeaderboardDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ZombieMan.LeaderboardDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ZombieMan.LeaderboardDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ZombieMan.LeaderboardDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ZombieMan.LeaderboardDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ZombieMan.LeaderboardDataSetTableAdapters.TableAdapterManager.UpdateAll(ZombieMan.LeaderboardDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ZombieMan.LeaderboardDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ZombieMan.LeaderboardDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ZombieMan.LeaderboardDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:ZombieMan.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ZombieMan.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:ZombieMan.My.Resources.Resources.ZombieMan1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ZombieMan.My.Resources.Resources.ZombieMan2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ZombieMan.My.Resources.Resources.ZombieMan3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ZombieMan.My.Resources.Resources.ZombieMan4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ZombieMan.My.Resources.Resources.ZombieMan5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ZombieMan.My.Resources.Resources.ZombieMan6">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ZombieMan.My.Resources.Resources.ZombieMan7">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ZombieMan.My.Resources.Resources.ZombieMan8">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:ZombieMan.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
